@@ -6,9 +6,9 @@ import (
 	"os"
 	"time"
 
-	"github.com/sakib-maho/first-golang-project/internal/checker"
-	"github.com/sakib-maho/first-golang-project/internal/output"
-	"github.com/sakib-maho/first-golang-project/internal/parse"
+	"github.com/sakib-maho/go-url-health-checker-cli/internal/checker"
+	"github.com/sakib-maho/go-url-health-checker-cli/internal/output"
+	"github.com/sakib-maho/go-url-health-checker-cli/internal/parse"
 )
 
 func main() {

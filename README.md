@@ -30,8 +30,8 @@ Modern Go CLI project for checking the health of multiple URLs concurrently and 
 ## Quick Start
 
 ```bash
-git clone https://github.com/sakib-maho/first-golang-project.git
-cd first-golang-project
+git clone https://github.com/sakib-maho/go-url-health-checker-cli.git
+cd go-url-health-checker-cli
 go run ./cmd/healthcheck --urls https://github.com,https://example.com
 ```
 

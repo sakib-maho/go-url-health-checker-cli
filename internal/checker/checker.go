@@ -6,7 +6,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/sakib-maho/first-golang-project/internal/model"
+	"github.com/sakib-maho/go-url-health-checker-cli/internal/model"
 )
 
 func CheckURLs(urls []string, timeout time.Duration, retries int) []model.Result {
