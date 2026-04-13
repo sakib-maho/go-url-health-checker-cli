@@ -20,6 +20,24 @@ Modern Go CLI project for checking the health of multiple URLs concurrently and 
   - CSV file
 - Unit tests for parsing and aggregation logic
 
+## Quick Start
+
+```bash
+git clone https://github.com/sakib-maho/go-url-health-checker-cli.git
+cd go-url-health-checker-cli
+go run ./cmd/healthcheck --urls https://github.com,https://example.com
+```
+
+## Tests
+
+```bash
+go test ./...
+```
+
+## License
+
+MIT - see [LICENSE](LICENSE).
+
 ## Project Structure
 
 ```text
@@ -32,14 +50,6 @@ Modern Go CLI project for checking the health of multiple URLs concurrently and 
 │   └── parse/parse.go
 ├── tests/sample_urls.txt
 └── go.mod
-```
-
-## Quick Start
-
-```bash
-git clone https://github.com/sakib-maho/go-url-health-checker-cli.git
-cd go-url-health-checker-cli
-go run ./cmd/healthcheck --urls https://github.com,https://example.com
 ```
 
 ## Usage
@@ -79,13 +89,3 @@ https://github.com           200      142          -
 https://example.com          200      84           -
 https://invalid.local        0        0            dial tcp: lookup failed
 ```
-
-## Tests
-
-```bash
-go test ./...
-```
-
-## License
-
-MIT - see [LICENSE](LICENSE).
